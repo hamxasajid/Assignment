@@ -1,0 +1,131 @@
+body {
+    margin-left: 35%;
+    background-color: skyblue;
+}
+
+h1 {
+    padding-bottom: 60px;
+    font-size: 40px;
+    color: rgb(253, 253, 253);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.Circle {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    display: block;
+}
+
+.sq7 {
+    margin: -72px 0px 0px 120px;
+    background-color: red;
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq8 {
+    margin: -12px 0px 0px 192px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq9 {
+    margin: 48px 0px 0px 264px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq10 {
+    margin: 108px 0px 0px 336px;
+    background-color: red;
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq11 {
+    margin: 180px 0px 0px 264px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq12 {
+    margin: 252px 0px 0px 192px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq13 {
+    margin: 312px 0px 0px 132px;
+    background-color: red;
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq14 {
+    margin: 252px 0px 0px 48px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq15 {
+    margin: 180px 0px 0px -24px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq16 {
+    margin: 108px 0px 0px -96px;
+    background-color: red;
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq17 {
+    margin: 48px 0px 0px -24px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.sq18 {
+    margin: -12px 0px 0px 48px;
+    background-color: rgb(77, 226, 19);
+    position: absolute;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
