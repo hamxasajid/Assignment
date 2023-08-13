@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav1{
+    width: 100%;
+    background-color: wheat;
+    color: black;
+    padding: 50px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navchl{
+     padding: 15px;
+}
