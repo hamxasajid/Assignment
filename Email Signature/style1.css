@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: rgba(19, 7, 7, 0.877);
+    text-align: center;
+    /* line-height: 30px; */
+    margin: 0px 40px 0px 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cooper;
+    color: yellowgreen;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    margin-top: 5px;
+
+}
+
+img:hover{
+    background-color: greenyellow;
+    transition-duration: .2s;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.icon {
+    padding: 10px;
+    text-align: left;
+    background-color: aliceblue;
+    line-height: 40px;
+}
+
+i:hover{
+    color: yellowgreen;
+}
+
+.button {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+a.fa{
+    padding: 15px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: yellowgreen;
+}
+
+a.fa:hover {
+    background-color: yellowgreen;
+    color: aliceblue;
+    transition-duration: .2s;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    align-self: center;
+}
+
+button:hover{
+    background-color: darkorange;
+    color: aliceblue;
+    box-shadow: 0 8px 16px 0 aliceblue;
+    border: none;
+}
