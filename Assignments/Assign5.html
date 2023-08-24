@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var arr = [30, 40, 10, 80, 50, 20, 90];
+        var min1 = Math.min.apply(null, arr);
+        console.log("Frst Min:" + min1)
+
+        arr.splice(arr.indexOf(min1), 1);
+        var min2 = Math.min.apply(null, arr);
+        console.log("2nd Min:" + min2)
+
+        arr.splice(arr.indexOf(min2), 1);
+        var min3 = Math.min.apply(null, arr);
+        console.log("3rd Min:" + min3)
+
+        arr.splice(arr.indexOf(min3), 1);
+        var min4 = Math.min.apply(null, arr);
+        console.log("4th Min:" + min4)
+
+        arr.splice(arr.indexOf(min4), 1);
+        var min5 = Math.min.apply(null, arr);
+        console.log("5th Min:" + min5)
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////
+
+        console.log("//////////")
+
+        var arr = [30, 40, 10, 80, 20, 90];
+        var max1 = Math.max.apply(null, arr);
+        console.log("Frst Max:" + max1)
+
+        arr.splice(arr.indexOf(max1), 1);
+        var max2 = Math.max.apply(null, arr);
+        console.log("2nd Max:" + max2)
+
+        arr.splice(arr.indexOf(max2), 1);
+        var max3 = Math.max.apply(null, arr);
+        console.log("3rd Max:" + max3)
+
+        arr.splice(arr.indexOf(max3), 1);
+        var max4 = Math.max.apply(null, arr);
+        console.log("4th Max:" + max4)
+
+        arr.splice(arr.indexOf(max4), 1);
+        var max5 = Math.max.apply(null, arr);
+        console.log("5th Max:" + max5)
+
+
+    </script>
+
+</body>
+
+</html>
